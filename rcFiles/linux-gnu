@@ -2,6 +2,7 @@
 alias copy='/usr/bin/xclip -selection clipboard'
 alias clip='copy'
 alias venv="source '$EAFTOS_PATH/bin/xVirtualEnv'"
+alias wifi="nmtui"
 
 
 # PS1 - We only customize this when we are running linux
