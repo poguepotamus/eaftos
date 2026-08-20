@@ -1,0 +1,27 @@
+{
+    "yaml.disableSchemaDetection": [
+        "**/docker-compose.yml",
+        "**/docker-compose.yaml",
+        "**/docker-compose.*.yml",
+        "**/docker-compose.*.yaml",
+        "**/compose.yml",
+        "**/compose.yaml",
+        "**/compose.*.yml",
+        "**/compose.*.yaml"
+    ],
+    "python.venvFolders": [
+        "$HOME/.penv/${workspaceFolderBasename}*"
+    ],
+    "python.venvPath": "~/.penv",
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "ROOT"
+        }
+    ],
+    "syncSettings.resources": [
+        "keybindings",
+        "settings",
+        "snippets",
+    ]
+}
